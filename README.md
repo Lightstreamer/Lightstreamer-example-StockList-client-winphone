@@ -45,7 +45,7 @@ Otherwise, to directly import the project as is you can use Microsoft Visual Stu
 You may run the demo against your local server or using our online server at http://push.lightstreamer.com:80. The server to which the demo will connect to is configured in the App.xaml.cs file.
 
 You should complete this project with the Lightstreamer Windows Phone Client Library, to be used for the build process.<br>
-Please, download the [latest Lightstreamer distribution](http://www.lightstreamer.com/dowload/) and copy the WindowsPhoneClient.dll and WindowsPhoneClient.pdb files from theLightstreamer Windows Phone Client SDK (that is located under the /DOCS-SDKs/sdk_client_windows_phone/lib folder) into the "lib" folder of this project.
+Please, download the [latest Lightstreamer distribution](http://www.lightstreamer.com/download/) and copy the WindowsPhoneClient.dll and WindowsPhoneClient.pdb files from theLightstreamer Windows Phone Client SDK (that is located under the /DOCS-SDKs/sdk_client_windows_phone/lib folder) into the "lib" folder of this project.
   
 You're now ready to import the project into Visual Studio, click on New Project->Windows Phone Application and import all the files located in the demo folder.
   
