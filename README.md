@@ -53,7 +53,7 @@ From Visual Studio, click on the WP7StockListDemo project in the Solution Explor
 
 # See Also #
 
-## Lightstreamer Adapters needed by these demo clients ##
+## Lightstreamer Adapters needed by this demo client ##
 
 * [Lightstreamer StockList Demo Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer Reusable Metadata Adapter in Java](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
@@ -71,4 +71,5 @@ From Visual Studio, click on the WP7StockListDemo project in the Solution Explor
 
 # Lightstreamer Compatibility Notes #
 
-- Compatible with Lightstreamer WinRT Client Library version 1.0 or newer.
+- Compatible with Lightstreamer Windows Phone Client Library version 1.1 or newer.
+- For Lightstreamer Allegro+, Presto, Vivace.
