@@ -7,7 +7,7 @@ This project contains a demo client showing integration between Lightstreamer Wi
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="zune://navigate?phoneAppID=2cf8750d-ab7f-e011-986b-78e7d1fa76f8" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_wp.png"></a>&nbsp;
+      &nbsp;<a href="zune://navigate?phoneAppID=2cf8750d-ab7f-e011-986b-78e7d1fa76f8" target="_blank"><img src="screen_wp.png"></a>&nbsp;
       
     </td>
     <td>
@@ -72,4 +72,4 @@ From Visual Studio, click on the WP7StockListDemo project in the Solution Explor
 # Lightstreamer Compatibility Notes #
 
 - Compatible with Lightstreamer Windows Phone Client Library version 1.1 or newer.
-- For Lightstreamer Allegro+, Presto, Vivace.
+- For Lightstreamer Allegro (+ Windows Phone Client API support), Presto, Vivace.
