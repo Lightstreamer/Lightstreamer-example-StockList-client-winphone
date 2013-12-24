@@ -1,5 +1,7 @@
 # Lightstreamer - Basic Stock-List Demo - Windows Phone Client #
 
+<!-- START DESCRIPTION lightstreamer-example-stocklist-client-winphone -->
+
 This project contains a demo client showing integration between Lightstreamer Windows Phone Client and the Windows Phone platform.
 
 <table>
@@ -32,6 +34,8 @@ Check out the sources for further explanations.<br>
 <i>NOTE: not all the functionalities of the Lightstreamer Windows Phone Demo are exposed by the classes listed above. You can easily expand those functionalities using the Silverlight Client API as a reference.<br>
 If in trouble check out the [specific Lightstreamer forum](http://forums.lightstreamer.com/forumdisplay.php?34-Windows-Phone-Client-API).</i>
 
+<!-- END DESCRIPTION lightstreamer-example-stocklist-client-winphone -->
+
 # Build #
 
 If you want to skip the build process of this demo please note that you can install the app from the Windows Phone Marketplace, either click the image or link above from your Windows Phone, or go to the Marketplace and search for "Lightstreamer".<br>
@@ -53,9 +57,11 @@ From Visual Studio, click on the WP7StockListDemo project in the Solution Explor
 
 ## Lightstreamer Adapters needed by this demo client ##
 
+<!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 
+<!-- END RELATED_ENTRIES -->
 ## Similar demo clients that may interest you ##
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
