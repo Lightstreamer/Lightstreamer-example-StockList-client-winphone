@@ -2,27 +2,17 @@
 
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-winphone -->
 
-This project contains a demo client showing integration between Lightstreamer Windows Phone Client and the Windows Phone platform.
+This project contains a demo client showing integration between [Lightstreamer Windows Phone Client](http://www.lightstreamer.com/docs/client_windowsphone_api/frames.html) and the Windows Phone platform.
 
-<table>
-  <tr>
-    <td style="text-align: left">
-      &nbsp;<a href="zune://navigate?phoneAppID=2cf8750d-ab7f-e011-986b-78e7d1fa76f8" target="_blank"><img src="screen_wp.png"></a>&nbsp;
-      
-    </td>
-    <td>
-      &nbsp;To install the app from the Windows Store<br>
-      &nbsp;<a href="zune://navigate?phoneAppID=2cf8750d-ab7f-e011-986b-78e7d1fa76f8" target="_blank">zune://navigate?phoneAppID=2cf8750d-ab7f-e011-986b-78e7d1fa76f8</a>
-    </td>
-  </tr>
-</table>
+[![screenshot](screen_wp_large.png)](zune://navigate?phoneAppID=2cf8750d-ab7f-e011-986b-78e7d1fa76f8)<br>
+To install the app from the Windows Store [click here](zune://navigate?phoneAppID=2cf8750d-ab7f-e011-986b-78e7d1fa76f8).<br>
 
 This is a Windows Phone version of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript).<br>
 This app uses the <b>Windows Phone Client API for Lightstreamer</b>, based on Silverlight, to handle the communications with Lightstreamer Server. A simple user interface is implemented to display the real-time data received from Lightstreamer Server.
 
 In particular, this readme file details the steps required in order to execute the demo together with the Windows Phone emulator contained in Visual Studio (Express) for Windows Phone.
 
-## Dig the code ##
+## Dig the Code ##
 
 * <b>App.xaml.cs</b> is the main application file, it contains application events handling code (application launching, closed, activated, etc), Lightstreamer Client streaming controls (start, stop) and part of the auto-reconnection logic required when connection quality is weak.
 * <b>MainPage.xaml.cs</b> is the place where all the application widgets are handled. The application in fact, consists in a simple table containing real-time (simulated) stock quotes, whose cells are kept up-to-date by implementing the ILightstreamerListener interface.
@@ -55,14 +45,14 @@ From Visual Studio, click on the WP7StockListDemo project in the Solution Explor
 
 # See Also #
 
-## Lightstreamer Adapters needed by this demo client ##
+## Lightstreamer Adapters Needed by This Demo Client ##
 
 <!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 <!-- END RELATED_ENTRIES -->
-## Similar demo clients that may interest you ##
+## Related Projects ##
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
 * [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
