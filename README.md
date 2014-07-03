@@ -36,7 +36,7 @@ If in trouble check out the [specific Lightstreamer forum](http://forums.lightst
 * Launch Lightstreamer Server.
 * Download the deploy.zip file that you can find in the [deploy release] of this project and extract the "WPStockListDemo.xap" file.
 * Deploy the WPStockListDemo.xap in your Windows Phone Emulator, please follow the instructions specific to your version.
-* launch the "Lightstreamer Demo" app (please note that the demo try to connect to http://localhost:8080).
+* Launch the "Lightstreamer Demo" app (please note that the demo try to connect to http://localhost:8080).
 
 ## Build
 
