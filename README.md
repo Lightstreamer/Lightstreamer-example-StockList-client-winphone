@@ -34,7 +34,7 @@ If in trouble check out the [specific Lightstreamer forum](http://forums.lightst
 
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
-* Download the deploy.zip file that you can find in the [deploy release] of this project and extract the "WPStockListDemo.xap" file.
+* Download the deploy.zip file that you can find in the [deploy release](https://github.com/Weswit/Lightstreamer-example-StockList-client-winphone/releases) of this project and extract the "WPStockListDemo.xap" file.
 * Deploy the WPStockListDemo.xap in your Windows Phone Emulator, please follow the instructions specific to your version.
 * Launch the "Lightstreamer Demo" app (please note that the demo try to connect to http://localhost:8080).
 
