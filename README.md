@@ -3,10 +3,10 @@
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-winphone -->
 
 This project contains a demo client showing integration between [Lightstreamer Windows Phone Client](http://www.lightstreamer.com/docs/client_windowsphone_api/frames.html) and the Windows Phone platform.
+
 ## Live Demo
 
 [![screenshot](screen_wp_large.png)](zune://navigate?phoneAppID=2cf8750d-ab7f-e011-986b-78e7d1fa76f8)<br>
-
 ###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](zune://navigate?phoneAppID=2cf8750d-ab7f-e011-986b-78e7d1fa76f8)<br>
 
 ## Details
@@ -32,6 +32,8 @@ If in trouble check out the [specific Lightstreamer forum](http://forums.lightst
 
 ## Install
 
+If you want to install a version of this demo pointing to your local Lightstreamer server, follow these steps:
+
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
 * Download the deploy.zip file that you can find in the [deploy release](https://github.com/Weswit/Lightstreamer-example-StockList-client-winphone/releases) of this project and extract the "WPStockListDemo.xap" file.
@@ -39,6 +41,8 @@ If in trouble check out the [specific Lightstreamer forum](http://forums.lightst
 * Launch the "Lightstreamer Demo" app (please note that the demo try to connect to http://localhost:8080).
 
 ## Build
+
+To build your own version of WPStockListDemo.xap, instead of using the one provided in the deploy.zip file from the Install section above, follow these steps:
 
 To directly import the project as is you can use Microsoft Visual Studio 2010 Express for Windows Phone. You can download it from the [Microsoft website](http://www.microsoft.com/express/Phone/).
 
