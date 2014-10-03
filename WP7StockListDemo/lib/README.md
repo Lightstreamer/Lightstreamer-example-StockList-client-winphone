@@ -1,2 +1,2 @@
 This folder should contain Lightstreamer Windows Phone Client library, to be used for the build process.
-Please, download the latest Lightstreamer distribution and copy the WindowsPhoneClient.dll and WindowsPhoneClient.pdb files from the LightstreamerWindows Phone Client SDK (that is located under the /DOCS-SDKs/sdk_client_windows_phone/lib folder) into this folder of the project.
+Please download the latest Lightstreamer distribution and copy the WindowsPhoneClient.dll and WindowsPhoneClient.pdb files from the LightstreamerWindows Phone Client SDK (located under the /DOCS-SDKs/sdk_client_windows_phone/lib folder) into this folder of the project.
