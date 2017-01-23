@@ -2,7 +2,7 @@
 
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-winphone -->
 
-This project contains a demo client showing integration between [Lightstreamer Windows Phone Client](http://www.lightstreamer.com/docs/client_windowsphone_api/frames.html) and the Windows Phone platform.
+This project contains a demo client showing integration between [Lightstreamer .NET PCL Client](http://www.lightstreamer.com/api/ls-pcl-client/latest/) and the Windows Phone platform.
 
 ## Live Demo
 
@@ -12,9 +12,9 @@ This project contains a demo client showing integration between [Lightstreamer W
 ## Details
 
 This is a Windows Phone version of the [Stock-List Demos](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-client-javascript).<br>
-This app uses the <b>Windows Phone Client API for Lightstreamer</b>, based on Silverlight, to handle the communications with Lightstreamer Server. A simple user interface is implemented to display the real-time data received from Lightstreamer Server.
+This app uses the <b>.NET PCL API for Lightstreamer</b>, based on Silverlight, to handle the communications with Lightstreamer Server. A simple user interface is implemented to display the real-time data received from Lightstreamer Server.
 
-In particular, this readme file details the steps required to execute the demo together with the Windows Phone emulator contained in Visual Studio (Express) for Windows Phone.
+In particular, this readme file details the steps required to execute the demo together with the Windows Phone emulator contained in Visual Studio.
 
 ### Dig the Code
 
@@ -25,8 +25,8 @@ In particular, this readme file details the steps required to execute the demo t
 
 Check out the sources for further explanations.<br>
   
-<i>NOTE: Not all the functionalities of the Lightstreamer Windows Phone Demo are exposed by the classes listed above. You can easily expand those functionalities using the Silverlight Client API as a reference.<br>
-If in trouble, check out the [specific Lightstreamer forum](http://forums.lightstreamer.com/forumdisplay.php?34-Windows-Phone-Client-API).</i>
+<i>NOTE: Not all the functionalities of the Lightstreamer Windows Phone Demo are exposed by the classes listed above. You can easily expand those functionalities using the Lightstreamer .NET PCL API as a reference.<br>
+If in trouble, check out the [specific Lightstreamer forum](http://forums.lightstreamer.com/forumdisplay.php?11-Client-APIs).</i>
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-winphone -->
 
@@ -44,10 +44,14 @@ If you want to install a version of this demo pointing to your local Lightstream
 
 To build your own version of `WPStockListDemo.xap`, instead of using the one provided in the `deploy.zip` file from the [Install](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-winphone#install) section above, follow these steps:
 
-* To directly import the project as-is, you can use Microsoft Visual Studio 2010 Express for Windows Phone. You can download it from the [Microsoft website](http://www.microsoft.com/express/Phone/). <i>NOTE: You may also use the sources of the demo with another IDE or without any IDE but such an approach is not covered in this readme.</i>
+* To directly import the project as-is, you can use Microsoft Visual Studio 2015. You can download it from the [Microsoft website](https://www.visualstudio.com/it/downloads/). <i>NOTE: You may also use the sources of the demo with another IDE or without any IDE but such an approach is not covered in this readme.</i>
 * You may run the demo against your local server or using our online server at http://push.lightstreamer.com:80. The server to which the demo will connect to is configured in the `App.xaml.cs` file.
-  * In the former case, note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
-* You should complete this project with the Lightstreamer Windows Phone Client Library, to be used for the build process. Please download the [latest Lightstreamer distribution](http://www.lightstreamer.com/download/) and copy the `WindowsPhoneClient.dll` and `WindowsPhoneClient.pdb` files from the *Lightstreamer Windows Phone Client SDK* (located under the `/DOCS-SDKs/sdk_client_windows_phone/lib` folder) into the `lib` folder of this project.
+	* In the former case, note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
+* You should complete this project with the Lightstreamer .NET PCL Client library, to be used for the build process, trough NuGet. Follow these steps:
+	* In the "Solution Explorer" tab, right click on the project and choose `Manage NuGet Packages ...`
+	* In the Search text box enter `Lightstreamer`
+	* Choose Lightstreamer.DotNet.Client then click `Install` and then `Ok`
+	* Check out that among the References of your project Lightstreamer_DotNet_PCL_Client was added.
 * You're now ready to import the project into Visual Studio, click on <b>New Project->Windows Phone Application</b> and import all the files located in this demo.
 * From Visual Studio, click on the *WP7StockListDemo* project in the Solution Explorer menu and press the "Run (debug)" button. The Windows Phone Emulator will be started and the application loaded.
 
@@ -73,5 +77,5 @@ To build your own version of `WPStockListDemo.xap`, instead of using the one pro
 
 ## Lightstreamer Compatibility Notes
 
-- Compatible with Lightstreamer Windows Phone Client Library version 1.1 or newer.
+- Compatible with Lightstreamer .NET PCL Client Library version 3.0.0 or newer.
 - For Lightstreamer Allegro (+ Windows Phone Client API support), Presto, Vivace.

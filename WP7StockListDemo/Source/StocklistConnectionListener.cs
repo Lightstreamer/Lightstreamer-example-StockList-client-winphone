@@ -64,7 +64,7 @@ namespace WindowsPhone7Demo
             string message;
             int status;
             this.isPolling = isPolling;
-            message = "Lightstreamer is pushing...";
+            message = "Lightstreamer is pushing ... ";
             if (isPolling)
             {
                 status = LightstreamerConnectionHandler.POLLING;
