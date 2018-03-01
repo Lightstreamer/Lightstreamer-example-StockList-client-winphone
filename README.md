@@ -78,4 +78,4 @@ To build your own version of `WPStockListDemo.xap`, instead of using the one pro
 ## Lightstreamer Compatibility Notes
 
 - Compatible with Lightstreamer .NET PCL Client Library version 3.0.0 or newer.
-- For Lightstreamer Allegro (+ Windows Phone Client API support), Presto, Vivace.
+- Ensure that .NET PCL Client API is supported by Lightstreamer Server license configuration.
