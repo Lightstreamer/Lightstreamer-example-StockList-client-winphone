@@ -4,10 +4,7 @@
 
 This project contains a demo client showing integration between [Lightstreamer .NET PCL Client](http://www.lightstreamer.com/api/ls-pcl-client/latest/) and the Windows Phone platform.
 
-## Live Demo
-
-[![screenshot](screen_wp_large.png)](zune://navigate?phoneAppID=2cf8750d-ab7f-e011-986b-78e7d1fa76f8)<br>
-### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](zune://navigate?phoneAppID=2cf8750d-ab7f-e011-986b-78e7d1fa76f8)<br>
+![screenshot](screen_wp_large.png)<br>
 
 ## Details
 
